@@ -1,10 +1,23 @@
-- 👋 Hi, I’m @surekha-bodapati
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# List of Integers
+numbers = [1, 3, 4, 2]
 
-<!---
-surekha-bodapati/surekha-bodapati is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Sorting list of Integers
+numbers.sort(reverse=True)
+
+print(numbers)
+
+# List of Floating point numbers
+decimalnumber = [2.01, 2.00, 3.67, 3.28, 1.68]
+
+# Sorting list of Floating point numbers
+decimalnumber.sort(reverse=True)
+
+print(decimalnumber)
+
+# List of strings
+words = ["Geeks", "For", "Geeks"]
+
+# Sorting list of strings
+words.sort(reverse=True)
+
+print(words)
